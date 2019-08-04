@@ -178,29 +178,4 @@ $(function() {
         });
     });
     /*Modal*/
-    /*mmenu*/
-    $(document).ready(function () {
-        $('.header-mobile , #myMenu').removeClass('hidden');
-        //============  MMENU
-        $('#myMenu').mmenu({
-            extensions: [ 'effect-menu-slide','pagedim-black'],
-            navbar: {
-                title: '<div class="ads_logo">\n' +
-                '            <img src="img/gap_header_logo.png" alt="" class="logoscreen_out_mmenu">\n' +
-                '        </div>'
-            },
-            offCanvas: {
-                position: 'left'
-            }
-        });
-        var apiButt = $('#myMenu').data('mmenu');
-        apiButt.bind('open:finish', function() {
-            $('.hamburger').addClass('is-active');
-        });
-        apiButt.bind('close:finish', function() {
-            $('.hamburger').removeClass('is-active');
-        });
-    });
-
 });
-    /*mmenu*/
