@@ -57,11 +57,6 @@ $(function() {
             $('.menu').removeClass('open_menu_slide');
             $('.menu_overlay').attr('style','');
         });
-
-        $('.js-masked, .js_popup_call input[name=phone], .maske_phone').mask('+38(000) 00-00-000');
-
-        $('.js_call-sticky').sticky({topSpacing:0});
-
     });
 
     /*Anchors*/
